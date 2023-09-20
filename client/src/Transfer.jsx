@@ -46,7 +46,7 @@ function Transfer({ address, setBalance }) {
         ></input>
       </label>
 
-      <input type="submit" className="button" value="Transfer" />
+      <button type="submit">Transfer</button>
     </form>
   );
 }
